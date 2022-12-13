@@ -8,11 +8,6 @@ scikit-learn
 scipy
 six
 numpy
-pandas
-ffmpeg-python
-unrar
 PyYAML
+git+git://github.com/deepmind/dmvr.git
 absl-py
-sentencepiece
-git+https://github.com/deepmind/dmvr.git
-git+https://github.com/openai/CLIP.git
