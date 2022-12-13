@@ -15,4 +15,4 @@ pip install -r requirements.txt
 
 Any feedback is appreciated. If you observed any issues, please contact us.
 
-Corresponding author: https://github.com/hassanhub
+Corresponding author: https://github.com/aashishkhimasia
