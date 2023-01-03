@@ -9,5 +9,13 @@ scipy
 six
 numpy
 PyYAML
-git+git://github.com/deepmind/dmvr.git
+
 absl-py
+sentencepiece
+tensorflow_text>=2.0.0
+git+https://github.com/deepmind/dmvr.git
+git+https://github.com/openai/CLIP.git
+
+pandas
+ffmpeg-python
+unrar
