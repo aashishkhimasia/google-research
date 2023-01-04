@@ -26,11 +26,14 @@ DS_TO_FACTORY = {
     #########################################
     #### put your dataset factories here ####
     #########################################
-    'TOY_DS': toy_dataset.ToyFactory,
+    #for hmdb51 example
+    'HMDB51': toy_dataset.ToyFactory,
+
+    #'TOY_DS': toy_dataset.ToyFactory,
 }
 
 
-def get_ds_factory(dataset_name = 'toy_ds',
+def get_ds_factory(dataset_name = 'hmdb51', #toy_ds
                    override_args = None):
   """Gets dataset source and name and returns its factory class."""
 
