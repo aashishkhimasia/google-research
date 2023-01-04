@@ -24,8 +24,8 @@ from vatt.data import processing
 class ToyFactory(loading.BaseDMVRFactory, abc.ABC):
   """Base class for a toy factory."""
 
-  _BASE_DIR = 'PATH/TO/YOUR/TFRECORD'
-  _NUM_CLASSES = 1000
+  _BASE_DIR = "gs://dissertation-adk/test_1"  # 'PATH/TO/YOUR/TFRECORD'
+  _NUM_CLASSES = 51 #1000
 
   _TABLES = {
       'train': 'train@10',
